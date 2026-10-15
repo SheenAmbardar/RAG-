@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: sentinel-rag
+Version: 0.1.0
+Summary: Research assistant with retrieval and evidence verification
+Requires-Python: >=3.11
+Requires-Dist: streamlit
+Requires-Dist: langchain
+Requires-Dist: langgraph
+Requires-Dist: chromadb
+Requires-Dist: fastapi
+Requires-Dist: uvicorn

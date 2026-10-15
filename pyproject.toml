@@ -1,0 +1,15 @@
+[project]
+name = "sentinel-rag"
+version = "0.1.0"
+description = "Research assistant with retrieval and evidence verification"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit",
+    "langchain",
+    "langgraph",
+    "chromadb",
+    "fastapi",
+    "uvicorn",
+]
+[tool.setuptools.packages.find]
+where = ["src"]
